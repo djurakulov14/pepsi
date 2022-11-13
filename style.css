@@ -115,7 +115,7 @@ header {
 }
 .content {
     position: fixed;
-    left: 0%;
+    left: 50px;
     bottom: 0%;
     top: 110vh;
     transition: .5s ease;
