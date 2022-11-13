@@ -9,7 +9,9 @@ body {
     max-width: 100%;
     max-height: 100vh;
     /* background-color: royalblue; */
+    background-color: #0065C3;
     /* overflow: hidden; */
+    color: white;
 }
 
 /* ...... */
@@ -60,7 +62,11 @@ header {
     text-decoration: none;
 }
 /* ...... */
-.right button {
+.right a {
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
     width: 200px;
     height: 30px;
     border-radius: 30px;
@@ -70,7 +76,7 @@ header {
     font-weight: 600;
     transition: .5s ease;
 }
-.right button:hover {
+.right a:hover {
     background: white;
     color: #0065C3;
 }
@@ -82,28 +88,29 @@ header {
 .products {
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-color: transparent;
     transition: .5s ease;
 }
 
 .whatsnew {
     width: 100%;
     height: 100vh;
-    background-color: firebrick;
+    background-color: transparent;
     transition: .5s ease;
 }
 
 .newsletter {
     width: 100%;
     height: 100vh;
-    background-color: fuchsia;
+    background-color: transparent;
+    color: white;
     transition: .5s ease;
 }
 
 .contact {
     width: 100%;
     height: 100vh;
-    background-color: teal;
+    background-color: transparent;
     transition: .5s ease;
 }
 .content {
@@ -117,4 +124,24 @@ header {
 .activePage {
     transition: .5s ease;
     top: 100px;
+}
+
+.p_l {
+    position:fixed ;
+    top: 100px;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    padding-top: 200px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.blockk {
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 30px;
 }
