@@ -8,9 +8,10 @@
 body {
     max-width: 100%;
     max-height: 100vh;
+    /* background-color: royalblue; */
     background-color: #0065C3;
-    color: white;
     /* overflow: hidden; */
+    color: white;
 }
 
 /* ...... */
@@ -61,7 +62,11 @@ header {
     text-decoration: none;
 }
 /* ...... */
-.right button {
+.right a {
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
     width: 200px;
     height: 30px;
     border-radius: 30px;
@@ -71,7 +76,7 @@ header {
     font-weight: 600;
     transition: .5s ease;
 }
-.right button:hover {
+.right a:hover {
     background: white;
     color: #0065C3;
 }
@@ -98,18 +103,19 @@ header {
     width: 100%;
     height: 100vh;
     background-color: transparent;
+    color: white;
     transition: .5s ease;
 }
 
 .contact {
     width: 100%;
     height: 100vh;
-    background-color: #0065C3;
+    background-color: transparent;
     transition: .5s ease;
 }
 .content {
     position: fixed;
-    left: 0%;
+    left: 50px;
     bottom: 0%;
     top: 110vh;
     transition: .5s ease;
@@ -118,7 +124,6 @@ header {
 .activePage {
     transition: .5s ease;
     top: 100px;
-    left: 50px;
 }
 
 .p_l {
@@ -127,7 +132,7 @@ header {
     left: 0;
     width: 50px;
     height: 100%;
-    background-color: transparent;
+    /* background-color: chartreuse; */
     padding-top: 200px;
     padding-left: 10px;
     z-index: 1;
@@ -140,57 +145,113 @@ header {
     background-size: 100%;
     margin-bottom: 30px;
 }
-
-.conte{
+.container{
+    width: 100%;
+    position: relative;
+}
+.pepsiimg{
+    width: 1700px;
+    height: 900px;
+    background-image: url(./img/kisspng-pepsi-soft-drink-coca-cola-beer-pepsi-5a73b14511f689.4997072715175314610736.png);
+    background-size: cover;
+    position: absolute;
+    right: 80px;
+    top: -130px;
+    z-index: -10;
+}
+.text{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    left: 110px;
+    top: 200px;
+    z-index: 10;
+}
+.text1{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    left: 110px;
+    top: 420px;
+    z-index: 10;
+}
+.whiteblock{
+    position: absolute;
+    width: 1000px;
+    background-color: white;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    float: right;
+    align-items: center;
+    left: -50px;
+    top: 645px;
 }
-.div{
-    display: flex;
-    gap: 10px;
+.text2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
-.leftt{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 50%;
-    align-items: flex-start;
+.text3{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
-.leftt h1{
-    color: white;
+.rightblock{
+    position: relative;
 }
-.h1{
-    font-size: 46px;
+.imgpepsiii{
+    position: absolute;
+    height: 185px;
+    width: 300px;
+    background-image: url(./img/5a3ab86d750a26.58691853151379774147949232.png);
+    background-size: cover;
+    top: -90px;
+    right: 0;
 }
-.leftt p{
-    color: white;
+.blackblock{
+    width: 430px;
+    background-color: black;
+    padding: 50px 50px 115px 50px;
+    position: absolute;
+    left: 950px;
+    top: 564px;
 }
-.leftt h2{
-    color: white;
+.text4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
-.contactdiv{
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-  padding-top: 10px 0;
-    gap: 10px;
-    text-align: center;
+.text5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
-.contactdivv{
-    background-color: rgb(55, 69, 223);
-    width: 100%;
+.blueblock{
+        width: 500px;
+        background-color: #1187C2;
+        padding: 50px 50px 115px 50px;
+        position: absolute;
+        left: 1380px;
+        top: 564px;
 }
-.leftt button{
-    padding: 10px 60px;
-    border-radius: 20px;
-    border: 1px solid white ;
-    background-color: transparent;
-    color: white;
+.iceblock{
+    position: relative;
 }
-.contactdivvv{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.ice{
+    width: 500px;
+    height: 70px;
+    background-image: url(./img/лёд.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    bottom: -115px;
+    left: -50px;
 }
