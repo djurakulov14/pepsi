@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100vh;
+    /* background-color: royalblue; */
+    background-color: #0065C3;
+    /* overflow: hidden; */
+    color: white;
+}
+
+/* ...... */
+header {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    background-color: #0065C3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* ...... */
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+.left img {
+    transition: .5s ease;
+}
+.left img:hover{
+    transform: rotate(360deg);
+}
+.left i {
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+/* ...... */
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.center a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* ...... */
+.right a {
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    transition: .5s ease;
+}
+.right a:hover {
+    background: white;
+    color: #0065C3;
+}
+/* ...... */
+
+
+
+
+.products {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.whatsnew {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.newsletter {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    color: white;
+    transition: .5s ease;
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    transition: .5s ease;
+}
+.content {
+    position: fixed;
+    left: 50px;
+    bottom: 0%;
+    top: 110vh;
+    transition: .5s ease;
+}
+
+.activePage {
+    transition: .5s ease;
+    top: 100px;
+}
+
+.p_l {
+    position:fixed ;
+    top: 100px;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    padding-top: 200px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.blockk {
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.pepsiimg{
+    width: 1700px;
+    height: 900px;
+    background-image: url(./img/kisspng-pepsi-soft-drink-coca-cola-beer-pepsi-5a73b14511f689.4997072715175314610736.png);
+    background-size: cover;
+    position: absolute;
+    right: 80px;
+    top: -130px;
+    z-index: -10;
+}
+.text{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    left: 110px;
+    top: 200px;
+    z-index: 10;
+}
+.text1{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    left: 110px;
+    top: 420px;
+    z-index: 10;
+}
+.whiteblock{
+    position: absolute;
+    width: 1000px;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: -50px;
+    top: 645px;
+}
+.text2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.text3{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.rightblock{
+    position: relative;
+}
+.imgpepsiii{
+    position: absolute;
+    height: 185px;
+    width: 300px;
+    background-image: url(./img/5a3ab86d750a26.58691853151379774147949232.png);
+    background-size: cover;
+    top: -90px;
+    right: 0;
+}
+.blackblock{
+    width: 430px;
+    background-color: black;
+    padding: 50px 50px 115px 50px;
+    position: absolute;
+    left: 950px;
+    top: 564px;
+}
+.text4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.text5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.blueblock{
+        width: 500px;
+        background-color: #1187C2;
+        padding: 50px 50px 115px 50px;
+        position: absolute;
+        left: 1380px;
+        top: 564px;
+}
+.iceblock{
+    position: relative;
+}
+.ice{
+    width: 500px;
+    height: 70px;
+    background-image: url(./img/лёд.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    bottom: -115px;
+    left: -50px;
+}
