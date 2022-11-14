@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -103,7 +102,7 @@ header {
 .newsletter {
     width: 100%;
     height: 100vh;
-    background-color: transparent;
+    background-color: rgb(40, 40, 40);
     color: white;
     transition: .5s ease;
 }
@@ -146,113 +145,65 @@ header {
     background-size: 100%;
     margin-bottom: 30px;
 }
-.container{
-    width: 100%;
-    position: relative;
+
+/* ...... <div class="newsletter-left"></div> */
+
+.newsletter-left {
+    max-width: 800px;
+    padding-left: 80px;
+    padding-top: 90px;
 }
-.pepsiimg{
-    width: 1700px;
-    height: 900px;
-    background-image: url(./img/kisspng-pepsi-soft-drink-coca-cola-beer-pepsi-5a73b14511f689.4997072715175314610736.png);
-    background-size: cover;
-    position: absolute;
-    right: 80px;
-    top: -130px;
-    z-index: -10;
-}
-.text{
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 80px;
-    font-weight: 700;
+
+.newsletter-left h1 {
     color: white;
-    left: 110px;
-    top: 200px;
-    z-index: 10;
+    font-size: 78px;
 }
-.text1{
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: white;
-    left: 110px;
-    top: 420px;
-    z-index: 10;
+
+.newsletter-left .text-1 {
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+    margin-top: 20px;
 }
-.whiteblock{
-    position: absolute;
-    width: 1000px;
-    background-color: white;
-    padding: 50px;
+
+.text-2 {
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    left: -50px;
-    top: 645px;
+    justify-content: space-between;
 }
-.text2{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 10px;
+
+.block {
+    padding-top: 10px;
+    width: 120px;
+    height: 150px;
+    background-color: #3f3f3f;
+    text-align: center;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-.text3{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+
+.nigga {
+    background-color: #3f3f3f;
 }
-.rightblock{
-    position: relative;
+
+.block div {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.593);
 }
-.imgpepsiii{
-    position: absolute;
-    height: 185px;
-    width: 300px;
-    background-image: url(./img/5a3ab86d750a26.58691853151379774147949232.png);
-    background-size: cover;
-    top: -90px;
-    right: 0;
+
+.text-3 {
+    font-size: 26px;
+    margin-top: 10px;
 }
-.blackblock{
-    width: 430px;
-    background-color: black;
-    padding: 50px 50px 115px 50px;
-    position: absolute;
-    left: 950px;
-    top: 564px;
-}
-.text4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-.text5{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-}
-.blueblock{
-        width: 500px;
-        background-color: #1187C2;
-        padding: 50px 50px 115px 50px;
-        position: absolute;
-        left: 1380px;
-        top: 564px;
-}
-.iceblock{
-    position: relative;
-}
-.ice{
-    width: 500px;
-    height: 70px;
-    background-image: url(./img/лёд.jpg);
-    background-size: cover;
-    background-position: bottom;
-    position: absolute;
-    bottom: -115px;
-    left: -50px;
+
+.active {
+    background-color: #A81C34;
 }
