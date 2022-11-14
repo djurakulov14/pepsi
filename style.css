@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -144,4 +145,114 @@ header {
     background-position: center;
     background-size: 100%;
     margin-bottom: 30px;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.pepsiimg{
+    width: 1700px;
+    height: 900px;
+    background-image: url(./img/kisspng-pepsi-soft-drink-coca-cola-beer-pepsi-5a73b14511f689.4997072715175314610736.png);
+    background-size: cover;
+    position: absolute;
+    right: 80px;
+    top: -130px;
+    z-index: -10;
+}
+.text{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    left: 110px;
+    top: 200px;
+    z-index: 10;
+}
+.text1{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    left: 110px;
+    top: 420px;
+    z-index: 10;
+}
+.whiteblock{
+    position: absolute;
+    width: 1000px;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: -50px;
+    top: 645px;
+}
+.text2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.text3{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.rightblock{
+    position: relative;
+}
+.imgpepsiii{
+    position: absolute;
+    height: 185px;
+    width: 300px;
+    background-image: url(./img/5a3ab86d750a26.58691853151379774147949232.png);
+    background-size: cover;
+    top: -90px;
+    right: 0;
+}
+.blackblock{
+    width: 430px;
+    background-color: black;
+    padding: 50px 50px 115px 50px;
+    position: absolute;
+    left: 950px;
+    top: 564px;
+}
+.text4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.text5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.blueblock{
+        width: 500px;
+        background-color: #1187C2;
+        padding: 50px 50px 115px 50px;
+        position: absolute;
+        left: 1380px;
+        top: 564px;
+}
+.iceblock{
+    position: relative;
+}
+.ice{
+    width: 500px;
+    height: 70px;
+    background-image: url(./img/лёд.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    bottom: -115px;
+    left: -50px;
 }
