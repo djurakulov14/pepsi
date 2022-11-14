@@ -118,12 +118,32 @@ header {
     transition: .5s ease;
     top: 100px;
 }
+
+.p_l {
+    position:fixed ;
+    top: 100px;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    padding-top: 200px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.blockk {
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+
 .conte{
     display: flex;
- justify-content: space-between;
- width: 80%;
-float: right;
-
+    justify-content: space-between;
+    width: 80%;
+    float: right;
 }
 .div{
     display: flex;
