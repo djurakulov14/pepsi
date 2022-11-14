@@ -5,6 +5,7 @@ let contents = document.querySelectorAll('.content')
 console.log(buttons);
 buttons.forEach(btn => {
 	btn.onclick = () => {
+		document.body.style.background = "#0065C3"
 		if(btn.getAttribute('data-p') === 'newsletter') {
 			document.body.style.background = "rgb(40, 40, 40)"
 		}
@@ -13,14 +14,6 @@ buttons.forEach(btn => {
 				contents.forEach(el => el.classList.remove('activePage'))
 				setTimeout(() => {
 					page.classList.add('activePage')
-// 					if (page.id === 'whatsnew') {
-// open()
-
-// console.log(page);
-// 					}
-
-
-
 				}, 10);
 			}
 		})
