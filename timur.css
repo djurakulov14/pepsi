@@ -73,6 +73,9 @@
     background-color: rgb(40, 40, 40);
     color: white;
     transition: .5s ease;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
 .contact {
@@ -130,18 +133,20 @@
 .newsletter-left .text-1 {
     color: rgb(134, 134, 134);
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .text-2 {
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 26px;
 }
 
 .flex {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 640px;
 }
 
 .block {
@@ -150,7 +155,6 @@
     height: 150px;
     background-color: #3f3f3f;
     text-align: center;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,6 +169,7 @@
     width: 100%;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.593);
+    padding-top: 14px;
 }
 
 .text-3 {
@@ -173,5 +178,54 @@
 }
 
 .active {
-    background-color: #A81C34;
+    background-color: #A31831;
+}
+
+.hz {
+    margin-top: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    border-radius: 30px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+
+.newsletter-right {
+    padding-top: 90px;
+    padding-right: 500px;
+}
+
+.newsletter-right img {
+    box-shadow: -85px 76px 73px 28px rgb(0 0 0 / 32%);
+}
+
+.pos {
+    text-align: center;
+    padding-top: 50px;
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    right: 40px;
+    bottom: 0px;
+}
+
+.pos .active {
+    height: 100px;
+    margin-top: 155px;
+    background-color: #820D1E;
+}
+
+.pos p {
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+    margin-top: 5px;
 }
