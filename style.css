@@ -252,7 +252,7 @@ header {
     /* background-image: url(./img/pepsi_blue.png); */
     display: flex;
     justify-content: center;
-    margin: 0px 80px 20px;
+    margin: 20px 80px 20px;
     border-radius: 30px;
     -webkit-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
     -moz-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
@@ -324,4 +324,196 @@ header {
     left: 1200px;
     top: -600px;
     font-weight: 600;
+}
+
+
+
+
+
+.pepsi_back1 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-image: url(./img/pepsi_blue.png);
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    z-index: 1000;
+    transition: 0.7s;
+    
+}
+.pepsi_back2:hover {
+    height: 250px;
+    width: 130px;
+    background-image: url(./img/pepsi_bl_sugar.png);
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 280px;
+    z-index: 0;
+    transition: 0.7s;
+}
+.pepsi_back1:hover {
+    height: 250px;
+    width: 130px;
+    /* background-image: url(./img/pepsi_bl_sugar.png); */
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    z-index: 0;
+    /* transition: 0.7s;/ */
+}
+.pepsi_back3 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-image: url(./img/pepsi_diet.png);
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 638px;
+    z-index: 1000;
+    transition: 0.7s;
+
+}
+.pepsi_back3:hover {
+    height: 250px;
+    width: 130px;
+    /* background-image: url(./img/pepsi_bl_sugar.png); */
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 588px;
+    z-index: 0;
+    /* transition: 0.7s; */
+}
+.pepsi_back4 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-image: url(./img/pepsi_coffee.png);
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 920px;
+    z-index: 1000;
+    transition: 0.7s;
+
+}
+.pepsi_back4:hover {
+    height: 250px;
+    width: 130px;
+    /* background-image: url(./img/pepsi_bl_sugar.png); */
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 870px;
+    z-index: 0;
+    /* transition: 0.7s; */
+}
+.pepsi_back5 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-image: url(./img/pepsi_di_cherry.png);
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    z-index: 1000;
+    transition: 0.7s;
+
+}
+.pepsi_back5:hover {
+    height: 250px;
+    width: 130px;
+    /* background-image: url(./img/pepsi_bl_sugar.png); */
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    z-index: 0;
+    /* transition: 0.7s; */
+}
+.pepsi_back6 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-image: url(./img/pepsi_mango.png);
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 358px;
+    z-index: 1000;
+    transition: 0.7s;
+
+}
+.pepsi_back6:hover {
+    height: 250px;
+    width: 130px;
+    /* background-image: url(./img/pepsi_bl_sugar.png); */
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 308px;
+    z-index: 0;
+    /* transition: 0.7s; */
+}
+.pepsi_back7 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-image: url(./img/pepsi_wh_coffeine.png);
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 638px;
+    z-index: 1000;
+    transition: 0.7s;
+
+}
+.pepsi_back7:hover {
+    height: 250px;
+    width: 130px;
+    /* background-image: url(./img/pepsi_bl_sugar.png); */
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 588px;
+    z-index: 0;
+    /* transition: 0.7s; */
+}
+.pepsi_back8 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-image: url(./img/pepsi_cherry.png);
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 920px;
+    z-index: 1000;
+    transition: 0.7s;
+
+}
+.pepsi_back8:hover {
+    height: 250px;
+    width: 130px;
+    /* background-image: url(./img/pepsi_bl_sugar.png); */
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 25px;
+    left: 870px;
+    z-index: 0;
+    /* transition: 0.7s; */
 }
